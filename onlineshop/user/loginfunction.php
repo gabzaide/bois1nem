@@ -3,17 +3,20 @@
 	include('connection.php');
 	
 if (isset($_POST["login"])) {
-		$emailaddress = $_POST['emailaddress'];
+		$accountnumber = $_POST['accountnumber'];
 		$password = $_POST['password'];
 
-		$sql = "SELECT * FROM customer WHERE emailaddress = '$emailaddress' and password = '$password'";
+		$sql = "SELECT * FROM customer WHERE accountnumber = '$accountnumber' and password = '$password'";
 		$sql = mysqli_query($con , $sql);
 		if (mysqli_num_rows($sql) !=1) {
-			$_SESSION['userlogged'] = $emailaddress;
+			$_SESSION['userlogged'] = $accountnumber;
 			header("location:user.php.");
 		}
 		else {
-			echo "Account Doesn't Exist!";
+			echo "<script>
+				alert('Account Doesn't Exist!!!');
+			</script>";
 		}
+
 	}
  ?>

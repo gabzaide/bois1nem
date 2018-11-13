@@ -16,7 +16,7 @@
 			<link rel="stylesheet" type="text/css" href="css/materialize/css/materialize.css">
 			<link rel="stylesheet" href="css/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
 			<link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
-			<link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+			<link href='https://fonts.googleapis.com/css?family=Rightessous' rel='stylesheet' type='text/css'>
 			<link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
 			<link href='https://fonts.googleapis.com/css?family=Hammersmith+One' rel='stylesheet' type='text/css'>
 			<link href='https://fonts.googleapis.com/css?family=NTR' rel='stylesheet' type='text/css'>
@@ -41,8 +41,8 @@
 		<!-- HEADER -->
 		<div class="header">
 			<p><br>
-				<div class="reg"><a data-toggle="modal" href="homepage#myModal" class="active"><i class="fa fa-user-circle-o"></i> <span class="reg1">&nbsp; Register </span></div></a>
-				<div class="login"><a href="login.php" class="active"><i class="fa fa-sign-in"></i> <span class="log">&nbsp; Log In </a></span></div>
+				<div class="reg"><a data-toggle="modal" href="Homepage#myModal" class="active"><i class="fa fa-user-circle-o"></i> <span class="reg1">&nbsp; Register </span></div></a>
+				<div class="login"><a data-toggle="modal" href="Homepage#myModal" class="active"><i class="fa fa-sign-in"></i> <span class="log">&nbsp; Log In </a></span></div>
 			</p>
 		</div>	  
 		<br>

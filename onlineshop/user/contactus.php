@@ -37,10 +37,10 @@
 		<!-- HEADER -->
 		<div class="header">
 			<p><br>
-				<div class="reg"><i class="fa fa-user-circle-o"></i> <span class="reg1">&nbsp; Register </span></div>
-				<div class="login"><i class="fa fa-sign-in"></i> <span class="log">&nbsp; Log In </span></div>
+				<div class="reg"><a data-toggle="modal" href="homepage#myModal" class="active"><i class="fa fa-user-circle-o"></i> <span class="reg1">&nbsp; Register </span></div></a>
+				<div class="login"><a href="login.php" class="active"><i class="fa fa-sign-in"></i> <span class="log">&nbsp; Log In </a></span></div>
 			</p>
-		</div>
+		</div>	  
 		<br>
 
 		<!-- NAVIGATION -->
@@ -68,12 +68,14 @@
 				</ul>
 			</div>
 		</nav>
-
+s
 			  <!-- CONTENT -->
 	  <div class="row">
 		<div class="container">
+      </div>
+
     </div>
-    </div>
+
 	  <br><br><br>
 
 
@@ -123,7 +125,7 @@
 					<div class="bar">
 						<div class="bar-wrap">
 							<div class="social">
-								<a href="https://www.facebook.com/" class="fb">
+								<a href="https://wsww.facebook.com/" class="fb">
 									<span data-icon="f" class="icon"></span>
 								</a>
 								<a href="https://twitter.com/?lang=en" class="tw">

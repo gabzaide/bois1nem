@@ -16,7 +16,7 @@
     <meta charset="UTF-8" />
     
       <!-- TITLE -->
-      <title> TESDA Assesment Center </title>
+      <title> UBP Rewards </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
       <!-- BOOTSTRAP AND CSS -->
@@ -32,7 +32,7 @@
   </head>
 
       <!-- ICON -->
-    <link rel="icon" type="image/png" href="../assets/images/TESDA Logo.png" />
+    <link rel="icon" type="image/png" href="Images/UBP Logo.png" />
 
   <body>
 
@@ -41,13 +41,13 @@
           <div class="sidebar-toggle-box">
             <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
           </div>
-          <a href="index.html" class="logo"><b> TESDA </b></a>
+          <a href="homepage.php" class="logo"><b> UBP Rewards </b></a>
             <div class="nav notify-row" id="top_menu">
              
             </div>
             <div class="top-menu">
               	<ul class="nav pull-right top-menu">
-                      <li><a class="logout" href="../admin/logout.php"> Log Out </a></li>
+                      <li><a class="logout" href="../user/logout.php"> Log Out </a></li>
               	</ul>
             </div>
         </header>
@@ -73,17 +73,23 @@
                           <span> PROFILE </span>
                       </a>
                       <ul class="sub">
-                          <li><a href="usersubj.php"><i class="fa fa-graduation-cap">&nbsp; Subjects </i></li></a>
+                          <li><a href="myaccounts.php"><i class="fa fa-user-circe-o">&nbsp; My Accounts </i></li></a>
+                      </ul>
+                      <ul class="sub">
+                          <li><a href="mypoints.php"><i class="fa fa-user-circe-o">&nbsp; My Acc </i></li></a>
                       </ul>
                   </li>
                   </li>
                   <li class="sub-menu">
                       <a href="javascript:;" >
                           <i class="fa fa-tasks"></i>
-                          <span> EXAM RESULTS </span>
+                          <span> REWARDS </span>
                       </a>
                       <ul class="sub">
-                          <li><a  href="exam.php"><i class="fa fa-balance-scale">&nbsp; Exam Results </i></a></li>
+                          <li><a  href="exam.php"><i class="fa fa-balance-scale">&nbsp; Points </i></a></li>
+                      </ul>
+                      <ul class="sub">
+                          <li><a  href="exam.php"><i class="fa fa-balance-scale">&nbsp; Redeem Points </i></a></li>
                       </ul>
                   </li>
                  

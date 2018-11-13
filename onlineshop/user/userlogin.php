@@ -1,6 +1,6 @@
 <?php 
-	include('../admin/connection.php');
-	include('../admin/loginfunction.php');
+	include('connection.php');
+	include('loginfunction.php');
  ?>
 <!DOCTYPE html>
 
@@ -11,7 +11,7 @@
 		<meta charset="UTF-8" />
 		
 			<!-- TITLE -->
-			<title> TESDA Assesment Center </title>
+			<title> Uniwards </title>
 		    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 		    <!-- BOOTSTRAP AND CSS -->    
@@ -25,7 +25,7 @@
   	</head>
 
   		<!-- ICON -->
-		<link rel="icon" type="image/png" href="../assets/images/TESDA Logo.png" />
+		<link rel="icon" type="image/png" href="Images/UBP Logo.png" />
 		
   	<body>
 
@@ -35,8 +35,8 @@
 		      <form class="form-login" method="post" action="user.php">
 		        <h2 class="form-login-heading"> SIGN UP NOW </h2>
 		        <div class="login-wrap">
-		        	<label for=""><b> Enter Your Username </b></label>
-		            <input type="text" class="form-control" placeholder="Username" name="username" autofocus>
+		        	<label for=""><b> Enter Your Account Number </b></label>
+		            <input type="text" class="form-control" placeholder="Account Number" name="accountnumber" autofocus>
 		            <br>
 		            <label for=""><b> Enter Your Password </b></label>
 		            <input type="password" class="form-control" placeholder="Password" name="password" required>
@@ -50,7 +50,7 @@
 		            <hr>
 		            <div class="registration">
 		                Don't Have an Account Yet?<br/>
-		                <a class="" href="../admin/register.php">
+		                <a class="" href="../user/register.php">
 		                    Create An Account
 		                </a>
 		            </div>
@@ -88,7 +88,7 @@
 	  <script src="../assets/js/bootstrap.min.js"></script>
 	  <script type="text/javascript" src="../assets/js/jquery.backstretch.min.js"></script>
 	  <script>
-		 $.backstretch("../assets/images/Login Background.jpg", {speed: 500});
+		 $.backstretch("../assets/images/Background.jpg", {speed: 500});
 	  </script>
 
 

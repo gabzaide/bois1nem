@@ -25,7 +25,7 @@
   	</head>
 
   		<!-- ICON -->
-		<link rel="icon" type="image/png" href="../assets/images/UBP Logo.png" />
+		<link rel="icon" type="image/png" href="Images/UBP Logo.png" />
 		
   	<body>
 
@@ -35,8 +35,8 @@
 		      <form class="form-login" method="post" action="">
 		        <h2 class="form-login-heading"> SIGN UP NOW </h2>
 		        <div class="login-wrap">
-		        	<label for=""><b> Enter Your Username </b></label>
-		            <input type="text" class="form-control" placeholder="Username" name="username" autofocus>
+		        	<label for=""><b> Enter Your Account Number </b></label>
+		            <input type="number" class="form-control" placeholder="Account Number" name="accountnumber" autofocus>
 		            <br>
 		            <label for=""><b> Enter Your Password </b></label>
 		            <input type="password" class="form-control" placeholder="Password" name="password" required>
